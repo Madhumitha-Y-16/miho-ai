@@ -56,6 +56,14 @@ Data analysis often involves multiple tools and repetitive processes. MIHO AI br
 | Google Gemini API | AI-powered analysis |
 | ReportLab | PDF report generation |
 
+## Application Screenshots
+
+The following screenshots showcase selected features and key interfaces of MIHO AI.
+
+These images represent only a portion of the application. MIHO AI includes additional analysis views, data quality reports, interactive visualizations, data cleaning options, AI-powered insights, and reporting capabilities that are not all displayed here.
+
+The screenshots provide a glimpse into the platform's functionality and user experience.
+
 ## Project Structure
 
 ```text
