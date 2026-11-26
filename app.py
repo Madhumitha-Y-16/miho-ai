@@ -422,6 +422,55 @@ section[data-testid="stSidebar"] [data-testid="stAlert"] span {
 }
 
 
+/* COMPLETE SIDEBAR LIGHT THEME */
+
+section[data-testid="stSidebar"],
+section[data-testid="stSidebar"] > div {
+    background: #E5EAFF !important;
+    color: #172554 !important;
+}
+
+/* All sidebar widget containers */
+section[data-testid="stSidebar"] [data-testid="stVerticalBlockBorderWrapper"],
+section[data-testid="stSidebar"] [data-testid="stFileUploader"],
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] section,
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"],
+section[data-testid="stSidebar"] [data-testid="stAlert"] {
+    background: #FFFFFF !important;
+    color: #172554 !important;
+    border-color: #C7D2FE !important;
+}
+
+/* All text inputs */
+section[data-testid="stSidebar"] input {
+    background: #FFFFFF !important;
+    color: #172554 !important;
+    border: 1px solid #C7D2FE !important;
+}
+
+/* Input visibility and action buttons */
+section[data-testid="stSidebar"] button {
+    background: #FFFFFF !important;
+    color: #5140D8 !important;
+    border: 1px solid #C7D2FE !important;
+}
+
+/* Uploaded file text */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] * {
+    color: #172554 !important;
+}
+
+/* Success message */
+section[data-testid="stSidebar"] [data-testid="stAlert"] * {
+    color: #14532D !important;
+}
+
+/* Remove dark backgrounds from nested sidebar blocks */
+section[data-testid="stSidebar"] [data-testid="stVerticalBlock"] {
+    background-color: transparent;
+}
+
+
 </style>
 """, unsafe_allow_html=True)
 
