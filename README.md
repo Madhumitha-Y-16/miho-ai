@@ -63,6 +63,25 @@ The following screenshots showcase selected features and key interfaces of MIHO 
 These images represent only a portion of the application. MIHO AI includes additional analysis views, data quality reports, interactive visualizations, data cleaning options, AI-powered insights, and reporting capabilities that are not all displayed here.
 
 The screenshots provide a glimpse into the platform's functionality and user experience.
+### 1. MIHO AI Homepage
+
+![MIHO AI EDA](screenshots/homepage.png.png)
+
+### 2. Exploratory Data Analysis
+
+![MIHO AI EDA](screenshots/EDA.png.png)
+
+### 3. Chat with Data 
+
+![MIHO AI Chat](screenshots/chat%20with%20ai.png.png)
+
+### 4. AI-Powered Summary
+
+![MIHO AI Summary](screenshots/AI-Summary.png.png)
+
+### 5. Automated PDF Report
+
+![MIHO AI PDF Report](screenshots/Pdf-Report.png.png)
 
 ## Project Structure
 
