@@ -96,6 +96,19 @@ section[data-testid="stSidebar"] [data-testid="stFileUploader"] section {
     background: transparent;
 }
 
+/* Upload button styling */
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] button {
+    background-color: #FFFFFF !important;
+    color: #172554 !important;
+    border: 1px solid #C7D2FE !important;
+    border-radius: 8px;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] button:hover {
+    background-color: #EEF0FF !important;
+    color: #172554 !important;
+}
+
 /* Inputs */
 
 .stTextInput input {
@@ -522,7 +535,7 @@ def ask_gemini(prompt):
 
     endpoint = (
         "https://generativelanguage.googleapis.com/v1beta/"
-        "models/gemini-3.5-flash-lite:generateContent"
+        "models/gemini-3.5-flash-lite   :generateContent"
         f"?key={urllib.parse.quote(api_key)}"
     )
 
