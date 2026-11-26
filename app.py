@@ -381,8 +381,50 @@ footer {
     visibility: hidden;
 }
 
+
+/* SIDEBAR - LIGHT THEME FIXES */
+
+/* Uploaded file card */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] {
+    background: #FFFFFF !important;
+    border: 1px solid #C7D2FE !important;
+    border-radius: 10px !important;
+    color: #172554 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] span {
+    color: #172554 !important;
+}
+
+/* Gemini API key visibility button */
+section[data-testid="stSidebar"] [data-testid="stTextInput"] button {
+    background: #FFFFFF !important;
+    color: #6245E8 !important;
+    border: 1px solid #C7D2FE !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stTextInput"] button:hover {
+    background: #EEF0FF !important;
+    color: #6245E8 !important;
+}
+
+/* Dataset success message */
+section[data-testid="stSidebar"] [data-testid="stAlert"] {
+    background: #E5F5EC !important;
+    border: 1px solid #B7E4C7 !important;
+    border-radius: 10px !important;
+    color: #14532D !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stAlert"] p,
+section[data-testid="stSidebar"] [data-testid="stAlert"] span {
+    color: #14532D !important;
+}
+
+
 </style>
 """, unsafe_allow_html=True)
+
 
 
 # ==========================================================
