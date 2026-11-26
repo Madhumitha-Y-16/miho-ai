@@ -471,8 +471,50 @@ section[data-testid="stSidebar"] [data-testid="stVerticalBlock"] {
 }
 
 
+/* FORCE LIGHT SIDEBAR WIDGETS */
+
+/* Uploaded file card */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"],
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] > div,
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] button {
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #172554 !important;
+    border-color: #C7D2FE !important;
+}
+
+/* Uploaded filename */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] * {
+    color: #172554 !important;
+}
+
+/* Dataset success notification */
+section[data-testid="stSidebar"] [data-testid="stAlert"],
+section[data-testid="stSidebar"] [data-testid="stAlert"] > div {
+    background: #E5F5EC !important;
+    background-color: #E5F5EC !important;
+    color: #14532D !important;
+    border: 1px solid #B7E4C7 !important;
+}
+
+/* Success notification text */
+section[data-testid="stSidebar"] [data-testid="stAlert"] p,
+section[data-testid="stSidebar"] [data-testid="stAlert"] span {
+    color: #14532D !important;
+}
+
+/* API key visibility button */
+section[data-testid="stSidebar"] [data-testid="stTextInput"] button {
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #6245E8 !important;
+    border: 1px solid #C7D2FE !important;
+}
+
+
 </style>
 """, unsafe_allow_html=True)
+
 
 
 
